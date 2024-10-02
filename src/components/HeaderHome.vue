@@ -1,11 +1,13 @@
 <template>
-    <section>
+    <header>
         Exquisite dining since 1989 Experience our seasonal menu in beautiful
         country surroundings. Eat the freshest produce from the comfort of our
-        farmhouse. Book a table
-    </section>
+        farmhouse. <BookTableButton></BookTableButton>
+    </header>
 </template>
 
-<script setup></script>
+<script setup>
+import BookTableButton from './BookTableButton.vue';
+</script>
 
 <style lang="scss" scoped></style>

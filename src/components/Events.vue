@@ -8,10 +8,12 @@
         mark your special date with an unforgettable meal. Social Events Are you
         looking to have a larger social event? No problem! We’re more than happy
         to cater for big parties. We’ll work with you to make your event a hit
-        with everyone. Book a table
+        with everyone. <BookTableButton></BookTableButton>
     </section>
 </template>
 
-<script setup></script>
+<script setup>
+import BookTableButton from './BookTableButton.vue';
+</script>
 
 <style lang="scss" scoped></style>
