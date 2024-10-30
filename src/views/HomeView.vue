@@ -1,13 +1,10 @@
 <template>
-    <div>
-        <HeaderHome></HeaderHome>
-        <main>
-            <About></About>
-            <MenuHighlights></MenuHighlights>
-            <Events></Events>
-        </main>
-        <Footer></Footer>
-    </div>
+    <HeaderHome></HeaderHome>
+    <main>
+        <About></About>
+        <MenuHighlights></MenuHighlights>
+        <Events></Events>
+    </main>
 </template>
 
 <script setup>
